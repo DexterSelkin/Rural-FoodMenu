@@ -1,36 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Restaurant Menu</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 20px; background: #f8f8f8; }
-    h1 { text-align: center; }
-    .menu-section { margin-bottom: 30px; }
-    .menu-item { background: #fff; margin: 10px 0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    .price { float: right; color: green; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Village Kitchen Menu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-image: url('Leonardo_Kino_XL_A_vibrant_artistic_collagestyle_image_depicti_2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            text-shadow: 1px 1px 3px #000;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 15px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        .price {
+            float: right;
+        }
+        .desc {
+            font-size: 0.9em;
+            color: #ccc;
+        }
+    </style>
 </head>
 <body>
-  <h1>Our Menu</h1>
+    <div class="container">
+        <h1>Village Kitchen</h1>
+        <h3>We have separate kitchen for Veg, Non-Veg and Jain.</h3>
 
-  <div class="menu-section">
-    <h2>Starters</h2>
-    <div class="menu-item">Tomato Soup <span class="price">$4</span></div>
-    <div class="menu-item">Garlic Bread <span class="price">$3</span></div>
-  </div>
+        <h2>Breakfast (7AM - 11AM)</h2>
+        <ul>
+            <li><strong>Poha / Jalebi (Jain)</strong> <span class="price">₹50</span><br><span class="desc">Famous breakfast of Madhya Bharat.</span></li>
+            <li><strong>Idli / Wada (Jain)</strong> <span class="price">₹50</span></li>
+            <li><strong>Tulsi / Ginger Tea</strong> <span class="price">₹30</span></li>
+            <li><strong>Filter Coffee</strong> <span class="price">₹30</span></li>
+        </ul>
 
-  <div class="menu-section">
-    <h2>Main Course</h2>
-    <div class="menu-item">Grilled Chicken <span class="price">$12</span></div>
-    <div class="menu-item">Veg Lasagna <span class="price">$10</span></div>
-  </div>
+        <h2>Lunch - Veg</h2>
+        <ul>
+            <li><strong>Chole Rice Combo</strong> <span class="price">₹80</span></li>
+            <li><strong>Dal Rice Combo</strong> <span class="price">₹80</span></li>
+            <li><strong>Butter Paneer Rice/Roti Combo</strong> <span class="price">₹100</span></li>
+            <li><strong>Paneer Biryani</strong> <span class="price">₹120</span></li>
+        </ul>
 
-  <div class="menu-section">
-    <h2>Desserts</h2>
-    <div class="menu-item">Chocolate Cake <span class="price">$5</span></div>
-    <div class="menu-item">Ice Cream <span class="price">$4</span></div>
-  </div>
+        <h2>Lunch - Non-Veg</h2>
+        <ul>
+            <li><strong>Chicken Rice/Roti</strong> <span class="price">₹100</span></li>
+            <li><strong>Chicken Dum Biryani</strong> <span class="price">₹120</span></li>
+            <li><strong>Egg Biryani</strong> <span class="price">₹100</span></li>
+        </ul>
+
+        <h2>Snacks</h2>
+        <ul>
+            <li><strong>Tulsi / Ginger Tea</strong> <span class="price">₹30</span></li>
+            <li><strong>Filter Coffee</strong> <span class="price">₹30</span></li>
+            <li><strong>Samose</strong> <span class="price">₹40</span></li>
+            <li><strong>Magode / Pakode</strong> <span class="price">₹50</span></li>
+        </ul>
+
+        <h2>Dinner - Veg</h2>
+        <ul>
+            <li><strong>Butter Paneer Rice/Roti Combo</strong> <span class="price">₹100</span></li>
+            <li><strong>Paneer Biryani</strong> <span class="price">₹120</span></li>
+            <li><strong>Veg Roll</strong> <span class="price">₹100</span></li>
+            <li><strong>Paneer Roll</strong> <span class="price">₹120</span></li>
+        </ul>
+
+        <h2>Dinner - Non-Veg</h2>
+        <ul>
+            <li><strong>Chicken Dum Biryani</strong> <span class="price">₹120</span></li>
+            <li><strong>Egg Biryani</strong> <span class="price">₹100</span></li>
+            <li><strong>Chicken Roll</strong> <span class="price">₹120</span></li>
+            <li><strong>Egg Roll</strong> <span class="price">₹100</span></li>
+        </ul>
+
+        <h2>Jain</h2>
+        <ul>
+            <li><strong>Malai Paneer / Rice / Roti</strong> <span class="price">₹120</span></li>
+            <li><strong>Dal Khichdi Combo</strong> <span class="price">₹100</span></li>
+        </ul>
+      <h2>Kids</h2>
+        <ul>
+            <li><strong>Boiled Milk</strong> <span class="price">₹50/250ml:75/500ml: 100/1000ml</span></li>
+        </ul>
+    </div>
 </body>
 </html>
